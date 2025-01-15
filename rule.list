@@ -1,0 +1,11 @@
+; Summary: Rule List
+; Author: Viktor Manyushin
+; Date: 2010-01-20
+; URL: https://github.com/vmanyushin/switchy/
+#BEGIN
+[Wildcard]
+
+[RegExp]
+youtube
+terraform.io
+#END
