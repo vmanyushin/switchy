@@ -1,12 +1,39 @@
-; Summary: Rule List
-; Author: Viktor Manyushin
-; Date: 2010-01-20
-; URL: https://raw.githubusercontent.com/vmanyushin/switchy/refs/heads/main/rule.list
-#BEGIN
-[Wildcard]
+[SwitchyOmega Conditions]
+@with result
 
-[RegExp]
-youtube
-terraform.io
-medium.com
-#END
+*.clym.io +proxy
+*.clym-sdk.net +proxy
+*.metacritic.com +proxy
+*.buildtheearth.net +proxy
+*.nnmclub.to +proxy
+*.vmware.com +proxy
+*.broadcom.com +proxy
+*.javjunkies.org +proxy
+*.lostfilm.top +proxy
+*.lucid.app +proxy
+*.ttthcqryunwst.com +proxy
+*.jordewld.com +proxy
+*.dmm.co.jp +proxy
+*.envoy.com +proxy
+*.youtu.be +proxy
+*.google.com +proxy
+*.ytimg.com +proxy
+*.ggpht.com +proxy
+*.cdninstagram.com +proxy
+*.fbcdn.net +proxy
+*.rutracker.cc +proxy
+*.lostfilm.tv +proxy
+*.hashicorp.com +proxy
+*.strava.com +proxy
+*.medium.com +proxy
+*.terraform.io +proxy
+*.nnmclub.to +proxy
+*.rutracker.org +proxy
+*.strava.com +proxy
+*.youtube.com +proxy
+*.googlevideo.com +proxy
+*.nnmstatic.win +proxy
+*.ansible.com +proxy
+UrlRegex: ya.ru +proxy
+
+* +direct
