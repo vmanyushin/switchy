@@ -34,6 +34,9 @@
 *.googlevideo.com +proxy
 *.nnmstatic.win +proxy
 *.ansible.com +proxy
-UrlRegex: ya.ru +proxy
+
+UrlRegex: terraform.io +proxy
+UrlRegex: medium.com +proxy
+UrlRegex: digitalocean.com +proxy
 
 * +direct
